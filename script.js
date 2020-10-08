@@ -37,8 +37,6 @@ function onYouTubeIframeAPIReady(resizeIframe) {
 function initialize(){
   updateTimerDisplay();
   updateProgressBar();
-  playBtn.classList.replace('fa-play', 'fa-pause');
-  playBtn.setAttribute('title', 'Pause');
   clearInterval(time_update_interval);
   var time_update_interval = setInterval(function () {
     updateTimerDisplay();
