@@ -25,6 +25,7 @@ function onYouTubeIframeAPIReady(resizeIframe) {
       controls: 0,
       autoplay: 1,
       showinfo: 0,
+      loop: 1
     },
     events: {
       onReady: initialize,
