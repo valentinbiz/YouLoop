@@ -26,6 +26,7 @@ function onYouTubeIframeAPIReady() {
       autoplay: 1,
       loop: 1,
       showinfo: 0,
+      loop: 1
     },
     events: {
       onReady: initialize,
