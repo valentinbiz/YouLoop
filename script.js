@@ -36,7 +36,6 @@ function onYouTubeIframeAPIReady() {
 }
 
 function initialize(){
-  // ytplayer.playVideo()
   updateTimerDisplay();
   updateProgressBar();
   clearInterval(time_update_interval);
