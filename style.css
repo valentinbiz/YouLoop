@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family:  sans-serif;
+  font-family:  'Hepta Slab';
   
 }
 *:focus {
@@ -38,8 +38,8 @@ iframe{
 h1{
   font-weight: bold;
   font-size: 80px;
-  font-style: oblique;
-  color: rgb(177, 75, 75);
+  /* font-style: oblique; */
+  color: rgb(214, 214, 214);
 }
 
 .fas {
@@ -254,8 +254,8 @@ option {
   top: 30px;
   bottom: -5px;
   font-size: large;
-  color: rgb(177, 75, 75);
-  font-style: italic;
+  color: rgb(221, 221, 221);
+  /* font-style: italic; */
   font-weight: bold;
 }
 
